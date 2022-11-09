@@ -1,0 +1,57 @@
+
+em → relativo ao tamanho da font pai
+Ele multiplica o valor do tamanho da fonte pai.
+
+Exemplo:
+
+HTML
+<div>
+	<p>Teste em</p>
+</div>
+
+CSS
+div
+{
+	font-size: 12px;
+}
+
+p 
+{
+	fonte-size: 2em;
+}
+
+"Teste em" ficará com o tamanho de 12px * 2 = 24px
+
+-----------------------------------------------------------------------------------
+
+rem → Tamanho relativo a fonte do elemento raiz (root/html)
+
+Exemplo:
+
+HTML
+<div>
+	<p>Teste rem</p>
+</div>
+
+CSS
+div
+{
+	font-size: 12px;
+}
+
+p 
+{
+	fonte-size: 2rem;
+}
+
+
+Por padrão, o valor da fonte é 16px.
+"Teste rem" ficará com o tamanho de 16px * 2 = 32px
+
+-----------------------------------------------------------------------------------
+
+vw → Tamanho relativo ao viewport width (Largura %)
+
+-----------------------------------------------------------------------------------
+
+vh → Tamanho relativo ao viewport height (Altura %)
